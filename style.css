@@ -121,6 +121,19 @@ button {
 }
 
 
+.column2bar {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    top: 359px;
+}
+
+.columnbartext {
+    float: left;
+}
+
+
 .column1text1 {
     position: relative;
     top: -1020px;
@@ -212,7 +225,7 @@ button {
     position: relative;
     top: -1640px;
     left: 20px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: transparent;
 }
 
@@ -225,8 +238,16 @@ button {
 
 .location {
     position: relative;
-    top: -1660px;
+    top: -1650px;
     left: 50px;
     font-size: 25px;
     background-color: transparent;
+}
+
+.phone {
+    position: relative;
+    top: -1650px;
+    left: 50px;
+    background-color: transparent;
+    font-size: 25px;
 }
